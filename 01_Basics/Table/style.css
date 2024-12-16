@@ -1,0 +1,18 @@
+table, tr, td, th {
+    border-bottom: 1px solid #c4dcf3;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+}
+
+th {
+    background-color: #427fef;
+    color: #fff;
+    font-weight: 900;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #eef7ff;
+}
